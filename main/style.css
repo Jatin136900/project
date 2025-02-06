@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background: 
+    linear-gradient(rgba(255, 166, 0, 0.814),rgba(255, 166, 0, 0.825),rgba(255, 166, 0, 0.77), rgba(255, 255, 0, 0.879));
+}
+.main{
+    margin-top: 10px;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+}
+.parent1{
+    background-color: beige;
+    padding: 70px 0;
+    width: 38%;
+    text-align: center;
+    border: solid 2px black;
+    /* transition: all 0.5s ease-out; */
+    overflow: hidden;
+
+}
+.parent1 p{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.btn{
+    text-decoration: none;
+    height: 45px;
+    width: 120px;
+    border-radius: 7px;
+    background-color: rgba(128, 128, 128, 0.455);
+    color: black;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.749);
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+}
+.btn::after{
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background-color: rgba(0, 128, 0, 0.312);
+    transition: all 0.4s;
+    /* border-radius: 7px; */
+    transform: translateX(-100%);
+
+}
+.btn:hover::after{
+    right: 0;
+}
+.btn::before{
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: rgba(0, 128, 0, 0.312);
+    transition: all 0.4s;
+    /* border-radius: 7px; */
+    transform: translateX(100%);
+
+}
+.btn:hover::before{
+    left:0;
+}
+.parent2{
+    background-color: beige;
+    padding: 70px 0;
+    width: 38%;
+    text-align: center;
+    border: solid 2px black;
+    /* transition: all 0.5s ease-out; */
+    overflow: hidden;
+
+}
+.parent2 p{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.btn2{
+    text-decoration: none;
+    height: 45px;
+    width: 120px;
+    border-radius: 7px;
+    background-color: rgba(128, 128, 128, 0.455);
+    color: black;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.749);
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+
+
+}
+.btn2::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 128, 0, 0.312);
+    transition: all 0.4s;
+    border-radius: 7px;
+}
+.btn2:hover::before{
+    top:0;
+}
+.parent4{
+    background-color: beige;
+    padding: 70px 0;
+    width: 38%;
+    text-align: center;
+    border: solid 2px black;
+    /* transition: all 0.5s ease-out; */
+    overflow: hidden;
+
+}
+.parent4 p{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.btn4{
+    text-decoration: none;
+    height: 45px;
+    width: 120px;
+    border-radius: 7px;
+    background-color: rgba(128, 128, 128, 0.455);
+    color: black;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.749);
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+
+
+}
+.btn4::before{
+    content: "";
+    width: 150%;
+    height: 100%;
+    position: absolute;
+    right: 120%;
+    top: 0;
+    background:linear-gradient(rgba(255, 0, 0, 0.482),rgba(255, 255, 255, 0.449));
+    transition: all 0.4s;
+    /* border-radius: 7px; */
+    transform: skewX(-50deg);
+
+}
+.btn4:hover::before{
+    right:-40px;
+}
+.parent3{
+    background-color: beige;
+    padding: 70px 0;
+    width: 38%;
+    text-align: center;
+    border: solid 2px black;
+    /* transition: all 0.5s ease-out; */
+    overflow: hidden;
+
+}
+.parent3 p{
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.btn3{
+    text-decoration: none;
+    height: 45px;
+    width: 120px;
+    border-radius: 7px;
+    background-color: rgba(128, 128, 128, 0.455);
+    color: black;
+    font-weight: bolder;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.749);
+    position: relative;
+    overflow: hidden;
+    font-size: 14px;
+}
+.btn3::before{
+    content: "";
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    right: 120%;
+    top: 0;
+    background-color: rgba(0, 128, 0, 0.312);
+    transition: all 0.6s ease-in;
+    /* border-radius: 7px; */
+    transform: skewX(-20deg);
+
+}
+.btn3:hover::before{
+    right:-40px;
+}
