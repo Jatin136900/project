@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parents{
+    display: flex;
+    position: relative;
+}
+
+.container{
+    height: 800px;
+    width: 1000px;
+    background-color: pink;
+    padding: 10px 0 0 20px;
+    position: sticky;
+    top: 0;
+
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    /* background-color: #fff; */
+    /* padding: 10px 100px; */
+}
+.container p{
+    margin-top: 30px;
+    width: 200px;
+    background-color: #fff;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+.container2 p{
+    padding: 30px 0 10px 20px;
+}
